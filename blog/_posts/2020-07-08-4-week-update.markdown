@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  “4 Week Recurse Update”
-date:   2020-27-08 18:39:08 -0400
+date:   2020-27-08 08:39:08 -0400
 categories: recurse center
 ---
 
