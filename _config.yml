@@ -1,1 +1,5 @@
 theme: minima
+plugins:
+  - jekyll-feed
+show_excerpts: true
+
