@@ -1,0 +1,10 @@
+---
+layout: post
+title:  Context
+date:   2020-07-29 01:39:08 -0400
+categories: recurse center
+---
+Pairing at Recurse Center is a real pleasure. I get to see what people are working on, and more importantly, I get some context for different concepts. Almost like magic, when  I pair with someone new, we usually end up doing something that I just learned. This is almost certainly because I recently learned everything serious I know about programming. 
+
+Today, memoization. A few days ago, binary search. It's great to work together and see a concept in some context. Even better, it makes me appreciate how much everything in computer science is just a bunch of simple ideas stacked up in intricate ways. Someone very smart figured out how to do this stuff years ago, and you, too, can learn their ways! 
+

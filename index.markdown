@@ -4,4 +4,4 @@
 
 layout: home
 ---
-Grace's site
+This is my blog, mostly about my adventures in learning programming.
