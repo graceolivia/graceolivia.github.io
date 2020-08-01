@@ -1,3 +1,4 @@
+---
 layout: post
 title:  Kübler-Ross Stages of Trying To Install Pygame
 date:   2020-07-31 02:19:08 -0400
