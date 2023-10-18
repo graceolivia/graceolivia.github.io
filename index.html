@@ -1,0 +1,71 @@
+---
+layout: default
+title: Grace's Portfolio
+---
+
+<section id="bio">
+    <div class="flex-container">
+        <div class="flex-item-text">
+            <button onclick="switchStyles()">Switch Styles</button>
+            <h1>Hi, I'm Grace</h1>
+            <p>Grace is a web developer in New York City. She enjoys React, fiddling with CSS, and learning new technologies.</p>
+        </div>
+        <div class="flex-item-image">
+            <img src="assets/profilepic2.png" alt="Grace's Image">
+        </div>
+    </div>
+</section>
+
+<section id="skills">
+    <h1>Skills</h1>
+    <ul>
+        <li>Javascript ⭐⭐⭐⭐</li>
+        <li>React ⭐⭐⭐⭐</li>
+        <li>Typescript ⭐⭐⭐</li>
+        <li>Front End Development ⭐⭐⭐</li>
+        <li>CSS ⭐⭐⭐⭐</li>
+    </ul>
+</section>
+
+<section id="experience">
+    <h1>Experience</h1>
+    <h2>Software Crafter</h2>
+    <ul>
+        <li>Developed responsive and user-friendly interfaces for a tax software client using React, Typescript, and modern front-end technologies.</li>
+        <li>Contributed to the full software development lifecycle, from requirement gathering and estimation to deployment and maintenance.</li>
+        <li>Conducted code reviews and provided feedback to enhance code quality and maintainability.</li>
+        <li>Collaborated with UX/UI designers to create intuitive and visually appealing user interfaces.</li>
+    </ul>
+</section>
+
+<section id="projects">
+    <h2>Personal Projects</h2>
+    <ul>
+        <li>Developed an Elixir and Phoenix application, leveraging the power of functional programming and test-driven development to build a robust and scalable blog site.</li>
+        <li>Designed and implemented a Java HTTP server that handled incoming requests, processed data, and delivered responses efficiently.</li>
+    </ul>
+</section>
+
+<section class="flex-container" id="contact">
+        <div class="flex-item-text">
+    <h1>Contact</h1>
+    <p>Email: <a href="mailto:grace@placeholder.com">grace@placeholder.com</a></p>
+        </div>
+    <div class="flex-item-image">
+        <img src="assets/cat.png" alt="Contact Me Cat">
+    </div>
+</section>
+<script>
+    function switchStyles() {
+        const stylesheet1 = document.getElementById('stylesheet1');
+        const stylesheet2 = document.getElementById('stylesheet2');
+
+        if (stylesheet1.disabled) {
+            stylesheet1.disabled = false;
+            stylesheet2.disabled = true;
+        } else {
+            stylesheet1.disabled = true;
+            stylesheet2.disabled = false;
+        }
+    }
+</script>

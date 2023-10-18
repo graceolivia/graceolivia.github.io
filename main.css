@@ -1,0 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo&display=swap');
+
+
+body, h1, p, ul, li {
+    margin: 0;
+    padding: 0;
+    font-family: 'Chivo', sans-serif;
+}
+
+section {
+    padding: 40px;
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+    color: white;
+}
+
+
+h1, h2 {
+    font-family: 'Alfa Slab One', cursive;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+/* List Styles */
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.flex-item-text {
+    flex: 1;
+    padding: 20px;
+}
+
+.flex-item-image {
+    flex: 1;
+    padding: 20px;
+}
+
+.flex-item-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+#bio {
+    background-color: #F2ACB2;
+}
+
+#skills {
+    background-color: #D99CB8;
+}
+
+#experience {
+    background-color: #A08ABF;
+}
+
+#projects {
+    background-color: #4988BF;
+}
+
+#contact {
+    background-color: #F2B29B
+}
