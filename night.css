@@ -24,12 +24,22 @@ section {
     height: 100vh;
     box-sizing: border-box;
     color: var(--color-text);
+    font-size: x-large;
 }
 
 /* Tablet */
 @media (max-width: 768px) {
     section {
         height: 50vh;
+        font-size: large;
+    }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+    section {
+        height: 33.33vh;
+        font-size: medium;
     }
 }
 
