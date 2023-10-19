@@ -4,9 +4,14 @@ title: Grace's Portfolio
 ---
 
 <section id="bio">
+
     <div class="flex-container">
+        <div id="sticky-button">
+            <button onclick="switchToStylesheet1()">Stylesheet 1</button>
+            <button onclick="switchToStylesheet2()">Stylesheet 2</button>
+        </div>
         <div class="flex-item-text">
-            <button onclick="switchStyles()">Switch Styles</button>
+
             <h1>Hi, I'm Grace</h1>
             <p>Grace is a web developer in New York City. She enjoys React, fiddling with CSS, and learning new technologies.</p>
         </div>
@@ -56,16 +61,20 @@ title: Grace's Portfolio
     </div>
 </section>
 <script>
-    function switchStyles() {
+    function switchToStylesheet1() {
         const stylesheet1 = document.getElementById('stylesheet1');
         const stylesheet2 = document.getElementById('stylesheet2');
 
-        if (stylesheet1.disabled) {
-            stylesheet1.disabled = false;
-            stylesheet2.disabled = true;
-        } else {
-            stylesheet1.disabled = true;
-            stylesheet2.disabled = false;
-        }
+        stylesheet1.disabled = false;
+        stylesheet2.disabled = true;
     }
+
+    function switchToStylesheet2() {
+        const stylesheet1 = document.getElementById('stylesheet1');
+        const stylesheet2 = document.getElementById('stylesheet2');
+
+        stylesheet1.disabled = true;
+        stylesheet2.disabled = false;
+    }
+
 </script>
