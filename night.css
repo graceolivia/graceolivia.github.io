@@ -10,26 +10,3 @@
 }
 
 
-
-
-#bio {
-    background-color: var(--color-bio);
-}
-
-#skills {
-    background-color: var(--color-skills);
-}
-
-#experience {
-    background-color: var(--color-experience);
-}
-
-#projects {
-    background-color: var(--color-projects);
-}
-
-#contact {
-    background-color: var(--color-contact);
-}
-
-

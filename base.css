@@ -88,3 +88,60 @@ li {
     height: auto;
     border-radius: 50%;
 }
+
+
+#bio {
+    background-color: var(--color-bio);
+}
+
+#skills {
+    background-color: var(--color-skills);
+}
+
+#experience {
+    background-color: var(--color-experience);
+}
+
+#projects {
+    background-color: var(--color-projects);
+}
+
+#contact {
+    background-color: var(--color-contact);
+}
+
+#prof-pic {
+    box-shadow: 30px 30px 0 0 var(--color-contact);
+}
+
+#cat-pic {
+    box-shadow: 30px 30px 0 0 var(--color-bio);
+}
+
+div.pixel-art {
+    height: 10px;
+    width: 10px;
+    top: calc(50% - 45px); /* Adjusted for centering */
+    left: calc(50% - 45px); /* Adjusted for centering */
+    box-shadow:
+        /* J */
+            40px 30px #000,
+            40px 40px #000,
+            40px 50px #000,
+            40px 60px #000,
+            40px 70px #000,
+            30px 70px #000,
+            20px 70px #000,
+            20px 60px #000,
+
+                /* Space between J and S */
+            70px 0px transparent,
+
+                /* S */
+            90px 40px #000,
+            100px 40px #000,
+            110px 40px #000,
+            120px 40px #000,
+            130px 40px #000;
+            130px 50px #000;
+}
