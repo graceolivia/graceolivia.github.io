@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Chivo&display=swap');
 
 /* Color Variables */
 :root {
@@ -11,81 +9,8 @@
     --color-text: white;
 }
 
-body, h1, p, ul, li {
-    margin: 0;
-    padding: 0;
-    font-family: 'Chivo', sans-serif;
-}
 
-section {
-    padding: 40px;
-    margin: 0;
-    width: 100%;
-    height: 100vh;
-    box-sizing: border-box;
-    color: var(--color-text);
-    font-size: x-large;
-}
 
-/* Tablet */
-@media (max-width: 768px) {
-    section {
-        height: 50vh;
-        font-size: large;
-    }
-}
-
-/* Mobile */
-@media (max-width: 480px) {
-    section {
-        height: 33.33vh;
-        font-size: medium;
-    }
-}
-
-h1, h2 {
-    font-family: 'Alfa Slab One', cursive;
-}
-
-h1 {
-    font-size: 2em;
-    margin-bottom: 10px;
-}
-
-h2 {
-    font-size: 1.5em;
-    margin-bottom: 10px;
-}
-
-ul {
-    list-style-type: none;
-}
-
-li {
-    margin-bottom: 5px;
-}
-
-.flex-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.flex-item-text {
-    flex: 1;
-    padding: 20px;
-}
-
-.flex-item-image {
-    flex: 1;
-    padding: 20px;
-}
-
-.flex-item-image img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 50%;
-}
 
 #bio {
     background-color: var(--color-bio);
@@ -107,12 +32,4 @@ li {
     background-color: var(--color-contact);
 }
 
-#sticky-button {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    color: var(--color-text);
-    z-index: 1000;
-    text-align: center;
-}
+
