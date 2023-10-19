@@ -3,8 +3,8 @@ layout: default
 title: Grace's Portfolio
 ---
 <div id="sticky-button">
-    <button onclick="switchToStylesheet1()">Stylesheet 1</button>
-    <button onclick="switchToStylesheet2()">Stylesheet 2</button>
+    <button onclick="switchStylesheet('main.css')">🌅</button>
+    <button onclick="switchStylesheet('main2.css')">🌌</button>
 </div>
 <section id="bio">
     <div class="flex-container">
@@ -59,20 +59,9 @@ title: Grace's Portfolio
     </div>
 </section>
 <script>
-    function switchToStylesheet1() {
-        const stylesheet1 = document.getElementById('stylesheet1');
-        const stylesheet2 = document.getElementById('stylesheet2');
-
-        stylesheet1.disabled = false;
-        stylesheet2.disabled = true;
-    }
-
-    function switchToStylesheet2() {
-        const stylesheet1 = document.getElementById('stylesheet1');
-        const stylesheet2 = document.getElementById('stylesheet2');
-
-        stylesheet1.disabled = true;
-        stylesheet2.disabled = false;
+    function switchStylesheet(newStylesheet) {
+        console.log(newStylesheet);
+        document.getElementById("stylesheet").href = newStylesheet;
     }
 
 </script>
