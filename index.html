@@ -3,8 +3,8 @@ layout: default
 title: Grace's Portfolio
 ---
 <div id="sticky-button">
-    <button onclick="switchStylesheet('main.css')">🌅</button>
-    <button onclick="switchStylesheet('main2.css')">🌌</button>
+    <button onclick="switchStylesheet('peach')">🌅</button>
+    <button onclick="switchStylesheet('night')">🌌</button>
 </div>
 <section id="bio">
     <div class="flex-container">
@@ -14,7 +14,7 @@ title: Grace's Portfolio
             <p>Grace is a web developer in New York City. She enjoys React, fiddling with CSS, and learning new technologies.</p>
         </div>
         <div class="flex-item-image">
-            <img src="assets/profilepic2.png" alt="Grace's Image">
+            <img src="assets/peachprofile.png" alt="Grace's Image" id="prof-pic">
         </div>
     </div>
 </section>
@@ -55,13 +55,17 @@ title: Grace's Portfolio
     <p>Email: <a href="mailto:grace@placeholder.com">grace@placeholder.com</a></p>
         </div>
     <div class="flex-item-image">
-        <img src="assets/cat.png" alt="Contact Me Cat">
+        <img src="assets/peachcat.png" alt="Contact Me Cat" id="cat-pic">
     </div>
 </section>
 <script>
-    function switchStylesheet(newStylesheet) {
-        console.log(newStylesheet);
-        document.getElementById("stylesheet").href = newStylesheet;
+    function switchStylesheet(theme) {
+        let stylesheet = theme + '.css'
+        let catpic = 'assets/' + theme + 'cat.png'
+        let profpic = 'assets/' + theme + 'profile.png'
+        document.getElementById("stylesheet").href = stylesheet;
+        document.getElementById("cat-pic").src = catpic;
+        document.getElementById("prof-pic").src = profpic;
     }
 
 </script>
