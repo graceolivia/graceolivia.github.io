@@ -33,13 +33,6 @@ section {
     }
 }
 
-/* Mobile */
-@media (max-width: 480px) {
-    section {
-        height: 33.33vh;
-    }
-}
-
 h1, h2 {
     font-family: 'Alfa Slab One', cursive;
 }
