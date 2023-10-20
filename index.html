@@ -79,4 +79,14 @@ title: Grace's Portfolio
         document.getElementById("prof-pic").src = profpic;
     }
 
+    function getRandomTheme() {
+        const words = ["peach", "spooky", "night", "eleven"];
+        const randomIndex = Math.floor(Math.random() * words.length);
+        return words[randomIndex];
+    }
+
+    document.addEventListener("DOMContentLoaded", function() {
+        const chosenWord = getRandomTheme();
+        switchStylesheet(chosenWord);
+    });
 </script>
