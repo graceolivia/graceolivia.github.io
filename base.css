@@ -95,8 +95,7 @@ li {
 
 
 .flex-item-image {
-    flex: 1;
-    padding: 20px;
+    flex: .5;
 }
 
 .flex-item-pixel-art {
