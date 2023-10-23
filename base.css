@@ -19,16 +19,14 @@ section {
     font-size: small;
 }
 
-/* Tablet */
-@media (min-width: 481px) {
+@media (min-width: 800px) {
     section {
         height: 50vh;
         font-size: large;
     }
 }
 
-/* Desktop */
-@media (min-width: 769px) {
+@media (min-width: 1200px) {
     section {
         height: 100vh;
         font-size: x-large;
@@ -76,14 +74,21 @@ li {
 
 .flex-item-text {
     flex: 1;
-    padding: 20px;
-    font-size: small;
+    padding:  0px 20px;
+    font-size: x-small;
 }
 
 @media (min-width: 800px) {
     .flex-item-text {
         flex: 1;
-        font-size: large;
+        font-size: medium;
+    }
+}
+
+@media (min-width: 1200px) {
+    .flex-item-text {
+        flex: 1;
+        font-size: x-large;
     }
 }
 
